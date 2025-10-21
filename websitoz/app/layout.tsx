@@ -16,9 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <head>
-          <Script strategy="beforeInteractive" src="https://cdn.tailwindcss.com"></Script>
-        </head>
+        
         <Navbar />
         {children}
         <Footer />

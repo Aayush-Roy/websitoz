@@ -12,13 +12,22 @@
 // };
 
 // module.exports = nextConfig;
-/** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
+// /** @type {import('next').NextConfig} */
+// const isProd = process.env.NODE_ENV === "production";
 
+// const nextConfig = {
+//   basePath: isProd ? "/websitoz" : "",
+//   assetPrefix: isProd ? "/websitoz/" : "",
+//   output: "export",
+//   images: {
+//     unoptimized: true,
+//   },
+// };
+
+// module.exports = nextConfig;
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: isProd ? "/websitoz" : "",
-  assetPrefix: isProd ? "/websitoz/" : "",
-  output: "export",
+  reactStrictMode: true,
   images: {
     unoptimized: true,
   },
