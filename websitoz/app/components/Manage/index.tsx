@@ -6,75 +6,75 @@ import Image from 'next/image';
 
 const names = [
     {
-        heading: "Startup",
-        price: 41,
-        user: 'per user, per month',
-        button: "Start My 15-day Trial",
-        profiles: '5 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "400+ Templated",
-        view: "Calendar View",
-        support: '24/7 Support',
+        heading: "Starter",
+        price: 499,
+        user: 'per month',
+        button: "Get Started Today",
+        profiles: 'Responsive Website Design',
+        posts: 'Basic SEO Setup',
+        templates: "5 Pages Website",
+        view: "Social Media Setup",
+        support: 'Email Support',
         category: 'yearly'
     },
     {
-        heading: "Business",
-        price: 29,
-        user: 'per user, per month',
-        button: "Start My 15-day Trial",
-        profiles: '10 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "600+ Templated",
-        view: "Calendar View",
-        support: '24/7 VIP Support',
+        heading: "Professional",
+        price: 999,
+        user: 'per month',
+        button: "Get Started Today",
+        profiles: 'Custom Website Development',
+        posts: 'Advanced SEO & Analytics',
+        templates: "10 Pages Website",
+        view: "Social Media Management",
+        support: 'Priority Support',
         category: 'yearly'
     },
     {
-        heading: "Agency",
-        price: 139,
-        user: 'per user, per month',
-        button: "Start My 15-day Trial",
-        profiles: '100 Social Profiles',
-        posts: '100 Scheduled Posts Per Profile',
-        templates: "800+ Templated",
-        view: "Calendar View",
-        support: '24/7 VIP Support',
+        heading: "Enterprise",
+        price: 2499,
+        user: 'per month',
+        button: "Get Started Today",
+        profiles: 'Full Stack Development',
+        posts: 'Complete Digital Marketing',
+        templates: "Unlimited Pages",
+        view: "Content Creation & Ads",
+        support: 'Dedicated Account Manager',
         category: 'yearly'
     },
     {
-        heading: "Agency",
-        price: 139,
-        user: 'per user, per yearly',
-        button: "Start My 15-day Trial",
-        profiles: '100 Social Profiles',
-        posts: '100 Scheduled Posts Per Profile',
-        templates: "800+ Templated",
-        view: "Calendar View",
-        support: '24/7 VIP Support',
+        heading: "Enterprise",
+        price: 2999,
+        user: 'per year',
+        button: "Get Started Today",
+        profiles: 'Full Stack Development',
+        posts: 'Complete Digital Marketing',
+        templates: "Unlimited Pages",
+        view: "Content Creation & Ads",
+        support: 'Dedicated Account Manager',
         category: 'monthly'
     },
     {
-        heading: "Startup",
-        price: 41,
-        user: 'per user, per yearly',
-        button: "Start My 15-day Trial",
-        profiles: '5 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "400+ Templated",
-        view: "Calendar View",
-        support: '24/7 Support',
+        heading: "Starter",
+        price: 599,
+        user: 'per year',
+        button: "Get Started Today",
+        profiles: 'Responsive Website Design',
+        posts: 'Basic SEO Setup',
+        templates: "5 Pages Website",
+        view: "Social Media Setup",
+        support: 'Email Support',
         category: 'monthly'
     },
     {
-        heading: "Business",
-        price: 29,
-        user: 'per user, per yearly',
-        button: "Start My 15-day Trial",
-        profiles: '10 Social Profiles',
-        posts: '5 Scheduled Posts Per Profile',
-        templates: "600+ Templated",
-        view: "Calendar View",
-        support: '24/7 VIP Support',
+        heading: "Professional",
+        price: 1199,
+        user: 'per year',
+        button: "Get Started Today",
+        profiles: 'Custom Website Development',
+        posts: 'Advanced SEO & Analytics',
+        templates: "10 Pages Website",
+        view: "Social Media Management",
+        support: 'Priority Support',
         category: 'monthly'
     },
 
@@ -96,30 +96,30 @@ const Manage = () => {
     return (
         <div id="services-section">
             <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-65xl font-black'>Manage All Your Social Media <br /> Profiles From One Place.</h3>
+                <h3 className='text-center text-4xl sm:text-65xl font-black'>Elevate Your Business With <br /> Our Digital Solutions.</h3>
 
 
                 <div className='md:flex md:justify-around mt-20'>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Free 15-day trial</h4>
+                        <h4 className='text-lg font-semibold'>Free Consultation</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Unlimited Team Members</h4>
+                        <h4 className='text-lg font-semibold'>Custom Solutions</h4>
                     </div>
                     <div className='flex gap-5 justify-center md:justify-start'>
                         <Image src="/images/manage/right.svg" alt="right-icon" width={21} height={14} />
-                        <h4 className='text-lg font-semibold'>Cancel Anytime</h4>
+                        <h4 className='text-lg font-semibold'>24/7 Support Available</h4>
                     </div>
                 </div>
 
 
                 <div className='mt-6 relative'>
-                    <div className='dance-text mb-5'>get 3 months free</div>
+                    <div className='dance-text mb-5'>save 20% on annual plans</div>
                     <Image src="/images/manage/toggle.svg" alt="toggle-image" width={24} height={24} className="toggleImage" />
                     <div className='flex justify-center'>
-                        <h3 className='text-sm font-medium mr-5'>Billed Yearly</h3>
+                        <h3 className='text-sm font-medium mr-5'>Annual Billing</h3>
                         <Switch
                             checked={enabled}
                             onChange={toggleEnabled}
@@ -131,7 +131,7 @@ const Manage = () => {
                                 } inline-block h-4 w-4 transform rounded-full bg-white transition`}
                             />
                         </Switch>
-                        <h3 className='text-sm font-medium ml-5'>Billed Monthly</h3>
+                        <h3 className='text-sm font-medium ml-5'>Monthly Billing</h3>
                     </div>
                 </div>
 
