@@ -6,6 +6,7 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
+import Image from 'next/image';
 
 interface NavigationItem {
     name: string;
@@ -40,7 +41,7 @@ const Navbar = () => {
 
                             <div className="flex flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
-                                    Websitoz
+                                    <Image src='./images/websitoz2.png' alt='logo' width={150} height={150}/>
                                 </Link>
                             </div>
 

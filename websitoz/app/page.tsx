@@ -12,6 +12,10 @@ import Testimonials from './components/Testimonials/index';
 import Articles from './components/Articles/index';
 import Joinus from './components/Joinus/index';
 import Insta from './components/Insta/index';
+import TravelAgencyAd from './others/travelLanding';
+import LearningPlatformAd from './others/LearningAdv';
+import EcommerceAd from './others/EcomBuisness';
+import GymAd from './others/Gym';
 
 
 export default function Home() {
@@ -30,6 +34,10 @@ export default function Home() {
       <Testimonials />
       <Articles />
       <Joinus />
+      {/* <TravelAgencyAd/> */}
+      {/* <LearningPlatformAd/> */}
+      {/* <EcommerceAd/> */}
+      <GymAd/>
       <Insta />
     </main>
   )
