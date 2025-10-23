@@ -1,4 +1,3 @@
-// components/LearningPlatformAd.tsx
 'use client';
 import { useState, ChangeEvent, FormEvent } from "react";
 import Image from "next/image";
@@ -30,7 +29,6 @@ export default function LearningPlatformAd() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  // Your Google Sheet script URL
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbzGfE0ssObKkFNQitXK331lKkSXtXkXIxXNxGML2Hyo-si0Df8dni38LhBayicrxKmwzQ/exec";
 
@@ -83,7 +81,7 @@ export default function LearningPlatformAd() {
 
         {/* Features List */}
         <div className="mt-6 space-y-3 text-left self-start max-w-md w-full">
-          <h3 className="text-lg font-semibold text-gray-800 mb-2">What's Included:</h3>
+          <h3 className="text-lg font-semibold text-gray-800 mb-2">What&apos;s Included:</h3>
           <div className="flex items-center gap-3">
             <HiOutlineCog className="w-6 h-6 text-indigo-500 flex-shrink-0" />
             <span className="text-gray-700">Full Platform Setup & Customization</span>
@@ -169,7 +167,7 @@ export default function LearningPlatformAd() {
           {isSubmitted && (
             <p className="text-green-600 font-medium text-sm mt-2 flex items-center justify-center md:justify-start gap-1.5">
               <HiOutlineCheckCircle className="w-5 h-5" />
-              Thank you! We’ll contact you soon.
+              Thank you! We&apos;ll contact you soon.
             </p>
           )}
         </form>
@@ -178,8 +176,8 @@ export default function LearningPlatformAd() {
       {/* Right Image */}
       <div className="flex justify-center md:justify-end w-full md:w-1/2">
         <Image
-        width={500}
-        height={500}
+          width={500}
+          height={500}
           className="w-[250px] sm:w-[320px] md:w-[400px] lg:w-[450px] h-auto object-contain drop-shadow-lg rounded-lg"
           src="https://cdn.dribbble.com/userupload/45328582/file/21d689d6acc570495c0cde6b92182c10.png?resize=1504x1128&vertical=center"
           alt="Online Learning Platform Setup"

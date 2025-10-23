@@ -37,7 +37,7 @@ export default function Home() {
       {/* <TravelAgencyAd/> */}
       {/* <LearningPlatformAd/> */}
       {/* <EcommerceAd/> */}
-      <GymAd/>
+      {/* <GymAd/> */}
       <Insta />
     </main>
   )
