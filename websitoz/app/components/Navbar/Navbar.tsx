@@ -20,6 +20,7 @@ const navigation: NavigationItem[] = [
     { name: 'FAQ', href: '#faq-section', current: false },
     { name: 'Blog', href: '#blog-section', current: false },
     { name: 'Testimonial', href: '#testimonial-section', current: false },
+    {name:'Reach Us',href:'/Reach',current:false},
 ]
 
 function classNames(...classes: string[]) {
@@ -40,6 +41,7 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center border-right">
+                            
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
                                     <Image src='./images/websitoz2.png' alt='logo' width={150} height={150}/>
                                 </Link>
